@@ -14,5 +14,84 @@ body {
 }
 
 .wrapper {
-    padding-top: 135px;
+    padding: 135px 0;
+}
+
+.profile {
+    width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 107px;
+    background-image: url(../images/profile-bg.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    padding-bottom: 126px;
+}
+
+.profile-img {
+    margin-bottom: 62px;
+}
+
+.profile-name {
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.profile-posotion {
+    font-size: 28px;
+    color: #5279b9;
+    margin-bottom: 64px;
+}
+
+.profile-description {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 72px;
+    line-height: 30px;
+    margin-bottom: 167px;
+    position: relative;
+}
+
+.profile-description::before {
+    content: "";
+    width: 36px;
+    height: 17px;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    background-image: url(../images/wave.png);
+    background-repeat: no-repeat;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.social a {
+    background-repeat: no-repeat;
+}
+
+.social a.social-twitter {
+    width: 48px;
+    height: 40px;
+    background-image: url(../images/twitter.png);
+}
+
+.social a.social-dribbble {
+    width: 48px;
+    height: 49px;
+    background-image: url(../images/dribbble.png);
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+.social a.social-ln {
+    width: 47px;
+    height: 46px;
+    background-image: url(../images/linkedin.png);
 }
